@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'main.css') }}">
-
+  <link rel="stylesheet" href="main.css">
 	<meta charset="utf-8">
 	<title>Test</title>
 </head>
@@ -18,7 +18,7 @@
 
 <body>
 	<header class="site-header"> <!--Navigation Bar-->
-	
+
 	  <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
 	    <div class="container">
 
@@ -28,30 +28,30 @@
 	        <span class="navbar-toggler-icon"></span>
 	      </button>
 	  	  -->
-	      <div class="collapse navbar-collapse" id="navbarToggle"> 
+	      <div class="collapse navbar-collapse" id="navbarToggle">
 	      </div>
 	    </div>
 	  </nav>
 	</header>
 
-
+<div class="container">
 	<div class="content">
-		Name: <span class="values">Utkarsh Prakash</span>
+		<strong>Name:</strong> <span class="values">Peter Parker</span>
 	</div>
 	<div class="content">
-		Phone No.: <span class="values">9234567890</span>
+		<strong>Phone No.:</strong> <span class="values">9234567890</span>
 	</div>
 	<div class="content">
-		Email: <span class="values">work@email.com</span>
+		<strong>Email:</strong> <span class="values">work@email.com</span>
 	</div>
 	<div class="content">
-		Skills: 
+		<strong>Skills:</strong>
 		<ul>
 			<li><span class="lists">Eating</span></li>
 			<li><span class="lists">Sleeping</span></li>
 			<li><span class="lists">Binging</span></li>
 		</ul>
 	</div>
-
+</div>
 </body>
 </html>
